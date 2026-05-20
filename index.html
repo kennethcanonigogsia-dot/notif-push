@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reception Push</title>
+  /manifest.webmanifest
+  <style>
+    body{font-family:Segoe UI,Arial;margin:24px;max-width:520px}
+    button{padding:10px 12px;border:0;border-radius:10px;font-weight:800;cursor:pointer}
+    .on{background:#16a34a;color:#fff}
+    .off{background:#2563eb;color:#fff}
+    .muted{color:#6b7280;font-size:13px}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <h2>✅ Push Notifications</h2>
+  <p class="muted">
+    This page enables real push notifications via Service Worker + Push API. [3](https://www.g2.com/products/firebase/pricing)[5](https://costbench.com/software/cdn-edge/cloudflare/free-plan/)
+  </p>
+
+  <div style="display:flex;gap:10px;flex-wrap:wrap">
+    <button id="btnEnable" class="off">Enable Push</button>
+    <button id="btnDisable" class="on">Disable Push</button>
+  </div>
+
+  <p class="muted" id="status" style="margin-top:14px">Status: --</p>
+  <p class="muted">Worker URL: <code id="workerUrl"></code></p>
+
+  /app.jsscript>
+</body>
+</html>
